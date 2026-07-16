@@ -2,7 +2,7 @@
 
 :root {
   --color-bg: #F7F8FC;
-  --color-bg-tint: #EEF1FB;
+  --color-bg-tint: #F2F3FD;
   --color-surface: #FFFFFF;
   --color-text: #191B23;
   --color-text-soft: #6E7191;
@@ -34,6 +34,9 @@
   max-width: var(--container-max);
   margin: 0 auto;
   padding: 0 1.25rem;
+}
+.logo{
+    width: 120px;
 }
 .btn-ink {
   background: var(--color-primary); 
@@ -70,4 +73,143 @@
 }
 
 
+.pill-badge{
+    background-color: var(--color-purple);
+    color: white;
+    text-transform: uppercase;
+    border-radius: var(--radius-lg);
+    padding: 4px 16px;
+}
 
+/* Header */
+
+.header-text{
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height:60px;
+}
+.header-img{
+    width: 400px;
+    height: 400px;
+}
+
+/* Features */
+.feature-card{
+    background-color:#F9F9FF;
+    padding: 48px;
+    border-radius: var(--radius);
+     overflow: hidden;
+    position: relative;
+}
+.feature-icon{
+    height: 30px;
+    width: 30px;
+    
+}
+.circal{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    background-color: var(--color-primary-bg);
+    top: -30px;
+    right: -20px;
+    border-radius: 50%; 
+   
+}
+.light-purple{
+    background-color:#8355ef13 ;
+}
+.purpose{
+    width: 50%;
+    text-align: center;
+}
+.step-icon{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+/* ---- contact page components ---- */
+.contact-info-card {
+  background: var(--color-bg-tint);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem;
+}
+
+.icon-square {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  background: #DCE6FD;
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.icon-square img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.contact-form-card {
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem;
+}
+
+
+.form-control-paper {
+  background: var(--color-surface);
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: .75rem 1rem;
+  font-family: var(--font-body);
+  color: var(--color-text);
+  width: 100%;
+}
+
+.form-control-paper:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px var(--color-primary-bg);
+}
+
+
+.btn-ink {
+  background: var(--color-primary);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius);
+  padding: 0.7rem 1.6rem;
+  font-weight: 700;
+  font-family: var(--font-body);
+  transition: background .15s ease;
+}
+
+.btn-ink:hover {
+  background: #0059bea9 ;
+  color: #fff;
+}
+.contact-icons{
+    width: 40px;
+    height: 40px;
+}
+.site-footer{
+    background-color: var(--color-bg-tint);
+    border-top: 1px solid var(--color-border);
+}
+.footer-logo{
+    /* height: 100px; */
+    width: 100px;
+}
+.footer-text{
+    font-size: .7rem;
+   
+}
+.footer-text a{
+     color: var(--color-text-soft);
+}
