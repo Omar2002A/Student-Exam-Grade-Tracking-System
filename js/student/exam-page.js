@@ -804,7 +804,7 @@ function showResult(result) {
 
     resultIcon.innerHTML = `
         <img
-            src="..../assets/images/sad.png"
+            src="../assets/images/sad.png"
             alt="Sad smile"
         >
     `;
